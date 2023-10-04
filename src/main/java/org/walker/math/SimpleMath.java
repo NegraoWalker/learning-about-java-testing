@@ -3,7 +3,7 @@ package org.walker.math;
 public class SimpleMath {
 
     //Adição entre dois números:
-    public Double sum(Double firstNumber, Double secondNumber) {
+    public Double addition(Double firstNumber, Double secondNumber) {
         return firstNumber + secondNumber;
     }
     //Subtração entre dois números:
