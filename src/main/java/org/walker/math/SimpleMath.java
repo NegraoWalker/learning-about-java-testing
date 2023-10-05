@@ -23,7 +23,7 @@ public class SimpleMath {
         return (firstNumber + secondNumber) / 2;
     }
     //Raiz quadrada de um número:
-    public Double squareRoot(Double number) {
+    public Double squareRoot(int number) {
         return (Double) Math.sqrt(number);
     }
 }
