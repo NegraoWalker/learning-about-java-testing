@@ -81,10 +81,12 @@ class SimpleMathTest {
     }
 
 //    @Disabled
-//    @Test
-//    @DisplayName("Test division by zero")
-//    void testDivision_When_FirstNumberIsDividedByZero_ShouldThrowArithmeticException() {
-//        fail();
-//    }
+    @Test
+    @DisplayName("Test division by zero")
+    void testDivision_When_FirstNumberIsDividedByZero_ShouldThrowArithmeticException() {
+        System.out.println("Test division by zero");
+        SimpleMath math = new SimpleMath();
+        assertThrows(ArithmeticException.class,()-> {math.division(6.2D,0.0D);});
+    }
 
 }

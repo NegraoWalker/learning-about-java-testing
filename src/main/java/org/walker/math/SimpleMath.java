@@ -16,6 +16,9 @@ public class SimpleMath {
     }
     //Divisão entre dois números:
     public Double division(Double firstNumber, Double secondNumber) {
+        if (secondNumber.equals(0.0D)){
+            throw new ArithmeticException();
+        }
         return firstNumber / secondNumber;
     }
     //Média entre dois números:
