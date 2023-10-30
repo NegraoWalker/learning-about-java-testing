@@ -1,10 +1,11 @@
-package org.walker.model;
+package mocks.model;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.walker.model.CourseBusiness;
 import org.walker.service.CourseService;
 
 import java.util.Arrays;
