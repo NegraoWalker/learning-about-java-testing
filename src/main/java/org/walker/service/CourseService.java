@@ -4,4 +4,5 @@ import java.util.List;
 
 public interface CourseService {
     public List<String> recuperarCursos(String aluno);
+    public void deletarCurso(String curso);
 }
